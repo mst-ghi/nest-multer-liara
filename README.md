@@ -99,10 +99,14 @@ export class YourService {
 
 > You can access to all s3 apis with **this.storageService.client**
 
-### LiaraStorageService Apis
+## LiaraStorageService Apis
 
 | method                               | description                                                       |
 | ------------------------------------ | ----------------------------------------------------------------- |
 | setRequestProperty(property: string) | set request field key                                             |
 | put(request: any, property?: string) | upload media, arg 1 is request object, arg 2 is request field key |
 | delete(key: string)                  | remove object from storage                                        |
+
+## Author
+
+**Mostafa Gholami ([Github Page](https://mst-ghi.github.io/))**
